@@ -1,0 +1,10 @@
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as infomações possíveis sobre ele.
+algo_digitado = input('Digite algo: ')
+print(f'O tipo primitivo desse valor é {type(algo_digitado)}.')
+print(f'Só possui espaços? R: {algo_digitado.isspace()}.')
+print(f'É um número? R: {algo_digitado.isnumeric()}.')
+print(f'É alfabético? R: {algo_digitado.isalpha()}.')
+print(f'É alfanúmerico? R: {algo_digitado.isalnum()}.')
+print(f'Está em maiúsculas? R: {algo_digitado.isupper()}.')
+print(f'Está em minúsculas? R: {algo_digitado.islower()}.')
+print(f'Está capitalizada? R: {algo_digitado.istitle()}.')
